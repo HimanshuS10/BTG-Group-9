@@ -1,0 +1,6 @@
+{
+  "name": "SkyTrace",
+  "description": "Cost paper-trail and broker reconciliation tool for SKYJACK Plant 2, Customs and Trade, and Corporate Close.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

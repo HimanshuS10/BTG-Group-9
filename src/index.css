@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-navy: #0F172A;
+  --color-amber-accent: #D97706;
+  --color-recovered: #15803D;
+  --color-hold: #B91C1C;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #FFFFFF;
+    color: #0F172A;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
